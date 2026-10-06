@@ -3,31 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Films Hub</title>
+    <title>Film Hub</title>
     <link rel="stylesheet" href="style.css">
-    <script src="backwork.js"></script>
 </head>
+
 <body>
-    <h1>Films Hub</h1>
-    <p>Welcome to Films Hub!</p>
-    <div class="top-movies">
-        <h2>Top Three Films</h2>
-        <h3>FILLER</h3>
-        <p>DESC: FILLER</p>
-        <h3>FILLER</h3>
-        <p>DESC: FILLER</p>
-        <h3>FILLER</h3>
-        <p>DESC: FILLER</p>
-    </div>
+    <nav>
+        <div class="Title">
+            <h1>Film Hub</h1>
+        </div>
+        <ul>
+            <li><a href="MainPage.html">Hub</a></li>
+            <li><a href="Action.html">Action</a></li>
+            <li><a href="Comedy.html">Comedy</a></li>
+            <li><a href="Scifi.html">Scifi</a></li>
+            <li><a href="Settings.html">Settings</a></li>
+        </ul>
+    </nav>
 
-    <div class="links">
-        <p>Filler Link To Action Films <a href="Action.html">here</a></p>
-        <p>Filler Link To Comedy Films <a href="Comedy.html">here</a></p>
-        <p>Filler Link To Sci-Fi Films <a href="Scifi.html">here</a></p>
-    </div>
+    <main class="page">
+        <section class="popular-box">
+            <h1>Popular Films</h1>
+            <p>Select a time period</p>
+            <div class="period-buttons">
+                <button id="yearBtn">Last Year</button>
+                <button id="sixMonthBtn">Last 6 Months</button>
+                <button id="monthBtn">Last Month</button>
+                <button id="weekBtn">Last 7 Days</button>
+            </div>
+        </section>
 
-    <div class="Footer">
-        <p>Check out our <a href="FilmList.html">Films List</a> for more films!</p>
-    </div>
+        <section class="film-section">
+            <h2 id="sectionTitle">Popular Films - Last Year</h2>
+            <div id="filmContainer" class="film-container"></div>
+        </section>
+    </main>
+
+    <script src="backwork.js"></script>
+
 </body>
+
 </html>
