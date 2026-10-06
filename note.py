@@ -7,5 +7,5 @@
 #MOVIELIST -> A MASSIVE list of movies and their rating dispalced in stars, in a table ish format where you can select to see it in alphabetical order, by rating, or by creation date. Search indexing will be used in order for people to search for movies directly.
 
 #ACTION/COMDEY/SCIFI -> These pages will show a list of that specific genre, it will also have clips of each movies (mostly trailers) rotating horizontally (arrows can be used to scroll thru) it will also have a section with 'NEW UPCOMING' films of that genre.
-         
+
 # UPDATE: DO NOT USE APIs, or databases of any kind you don't get marked for it.
