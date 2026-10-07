@@ -8,11 +8,11 @@ const sectionTitle = document.getElementById("sectionTitle");
 
 const films = {
     year: [
-        { title: "Film A", description: "Description of Film A" },
-        { title: "Film A", description: "Description of Film A" },
-        { title: "Film A", description: "Description of Film A" },
+        { title: "One Battle After Another", description: "Metascore of 95, starring Leonardo DiCaprio:"},
+        { title: "My Undesirable Friends: Part I", description: "Metascore of 94, a documentary following independent Russian journalists" },
+        { title: "BLKNWS: Terms & Conditions", description: "Metascore of 92, an experimental documentary exploring Black history and identity" },
     ],
-    sixmonth: [
+    sixMonth: [
         { title: "Film B", description: "Description of Film B" },
         { title: "Film B", description: "Description of Film B" },
         { title: "Film B", description: "Description of Film B" },
@@ -28,4 +28,3 @@ const films = {
         { title: "Film D", description: "Description of Film D" },
     ],
 };
-

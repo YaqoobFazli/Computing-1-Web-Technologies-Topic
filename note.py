@@ -9,3 +9,5 @@
 #ACTION/COMDEY/SCIFI -> These pages will show a list of that specific genre, it will also have clips of each movies (mostly trailers) rotating horizontally (arrows can be used to scroll thru) it will also have a section with 'NEW UPCOMING' films of that genre.
 
 # UPDATE: DO NOT USE APIs, or databases of any kind you don't get marked for it.
+
+# UPDATEUPDATE: Images for the top 3 etc for each kind when you click it, it forwards you to the youtube vid of the trailer
